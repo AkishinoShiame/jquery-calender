@@ -4,7 +4,8 @@ for (item in CalArray){
         showOn: "button",
         buttonImageOnly: true,
         buttonImage: "calendar.gif",
-        altFormat: "dd-mm-yy",
+        altField: `${CalArray[item]}`,
+        altFormat: "dd/mm/yy",
         dayNamesMin:[ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ] 
     });
 };
